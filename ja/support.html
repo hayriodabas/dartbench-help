@@ -1,13 +1,19 @@
 <!doctype html>
 <html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>DartBench — サポート</title><style>
-:root{color-scheme:light;--ink:#1e232a;--muted:#626b73;--paper:#f6f4ee;--accent:#d99324}
-*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.65 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
-main{max-width:820px;margin:0 auto;padding:48px 24px 80px}.brand{font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);font-weight:700}
-h1{font:500 46px/1.1 Georgia,serif;margin:16px 0 12px}h2{font-size:22px;margin:34px 0 6px}p{margin:8px 0;color:#303943}.lead{font-size:21px;line-height:1.5;color:#303943}
-nav{display:flex;gap:22px;margin:22px 0 34px}a{color:var(--accent);text-underline-offset:3px}footer{margin-top:44px;border-top:1px solid #d7d5cd;padding-top:18px;color:var(--muted);font-size:14px}
-@media(max-width:600px){main{padding:32px 20px 60px}h1{font-size:38px}.lead{font-size:19px}}
-</style><link rel="canonical" href="https://hayriodabas.github.io/dartbench-help/ja/support.html"></head>
-<body><main><div class="brand">DartBench · Portfolio Studio</div><nav><a href="privacy.html">プライバシー</a><a href="support.html">サポート</a></nav><h1>サポート</h1><p class="lead">お問い合わせには、アプリのバージョン、デバイスのモデル、問題の概要を記載してください。問題の説明に必要な場合を除き、個人的な練習メモは送らないでください。</p>
-<h2>よくあるヘルプ</h2><p>セッションは端末内に保存されます。コピーを移すときはアプリ内のバックアップ／エクスポート機能を使ってください。要約は記録された観察を示すもので、特定の構成が優れていることを証明しません。</p>
-<h2>サポートメール</h2><p><a href="mailto:hayriodabas@gmail.com">hayriodabas@gmail.com</a></p><footer><p>最終更新：2026年10月17日</p><p>Publisher: Hayri Odabaş</p><p>Support: <a href="mailto:hayriodabas@gmail.com">hayriodabas@gmail.com</a></p></footer></main></body></html>
+<title>DartBench — サポート</title><style>:root{color-scheme:light dark;--paper:#f5eedf;--card:#fdf9f1;--ink:#1e2230;--ink2:#5c6170;--cobalt:#2447c9;--brass:#b08a2e;--rule:#dacfbb}
+@media(prefers-color-scheme:dark){:root{--paper:#14171e;--card:#1e222b;--ink:#eee8da;--ink2:#a4a9b6;--cobalt:#7a95ff;--brass:#d6b259;--rule:#343a47}}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+main{max-width:760px;margin:0 auto;padding:44px 22px 72px}.brand{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--brass);font-weight:600}
+h1{font-size:40px;line-height:1.1;font-weight:700;margin:14px 0 8px}h2{font-size:24px;line-height:1.2;font-weight:600;margin:34px 0 8px}
+p,li{margin:8px 0}.lead{font-size:20px;color:var(--ink2)}nav{display:flex;gap:18px;margin:18px 0 30px;flex-wrap:wrap}
+a{color:var(--cobalt);text-underline-offset:3px}.card{background:var(--card);border:1px solid var(--rule);border-radius:18px;padding:18px 22px;margin:14px 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:15px}
+.rail{height:4px;background:var(--brass);border-radius:2px;margin:26px 0;position:relative}.rail::after{content:"";position:absolute;right:0;top:-6px;width:16px;height:16px;border-radius:50%;background:var(--cobalt)}
+footer{margin-top:40px;border-top:1px solid var(--rule);padding-top:16px;color:var(--ink2);font-size:14px}
+.langs{display:flex;flex-wrap:wrap;gap:10px 16px;font-size:14px;list-style:none;padding:0}@media(max-width:600px){main{padding:30px 18px 56px}h1{font-size:32px}}</style>
+<link rel="canonical" href="https://hayriodabas.github.io/dartbench-help/ja/support.html"></head>
+<body><main><div class="brand">DartBench</div>
+<nav><a href="privacy.html">プライバシー</a><a href="support.html">サポート</a><a href="../index.html">言語</a></nav>
+<h1>サポート</h1><p class="lead">ボード、練習セッション、比較の仕組み。</p><div class="rail"></div><h2>ダーツを記録する</h2><p>実際のボードに実際のダーツを投げ、描かれたボードの刺さった位置をタップします。指を置いたままにすると、その下のベッド名（T20、D16、25、ブル）が表示され、離すとダーツが置かれます。ボードは公式寸法に従い、タップは中心からのミリ単位で保存されます。刺さらなかったダーツは「弾かれた」、指が滑ったら「取り消す」。</p><h2>数値</h2><p>ベッド内：選んだベッドに入ったダーツの割合。グルーピング：ダーツが自分たちの中心からどれだけ離れているかの平均（mm）。小さいほど締まっています。平均のずれ：ベッド中心からの平均距離。平均得点：1本が取ったであろう得点の平均。下の一行はグループがどちらに寄っているかを示します。</p><h2>比較</h2><p>一点だけ違う2つのセッティング（ベンチがスペックを確認）、ひとつのベッド、ブロックあたりの本数、1日のブロック数、ウォームアップを選びます。ブロックは ABBA 順で、ウォームアップと疲れが両方に等しく及びます。別の日に投げると順序が逆になります。レポートは両方を1枚のボードに示し、数値を並べます。最後の一文は、差がその本数で偶然が出す範囲を超えているかを述べます。記述的なもので、統計的検定ではありません。</p><h2>なぜ違いは一点か</h2><p>重さとフライトが同時に違えば、ボード上の差をどちらのせいにもできません。エディタは2点以上違うと警告します。それでも固定はできますが、レポートは「組み合わせ」についてのものになります。</p><h2>バックアップ</h2><p>設定 › 記録をバックアップ で JSON ファイルが1つ書き出され、どこにでも保存できます。復元で読み戻します。比較の CSV（Pro）は1本1行：日、ブロック、条件、リング、セクター、得点、ミリ単位の位置、弾かれ、感触。</p><div class="card"><p><strong>指がダーツの位置から少しずれます。</strong></p><p>指を離す前にベッド名を読み、正しいベッドになるまで動かしてください。細かい位置決めは表示を信頼してください。</p></div><div class="card"><p><strong>501 やクリケットの得点は数えられますか？</strong></p><p>いいえ。DartBench は練習を測ります：ダーツがどこに刺さり、どれだけ締まるか。スコアラーは別の道具です。</p></div><div class="card"><p><strong>新しい端末で Pro を戻すには？</strong></p><p>同じ Apple アカウントでサインインし、Pro ページか設定で「購入を復元」をタップします。</p></div>
+<h2>連絡先</h2><p><a href="mailto:hayriodabas@gmail.com">hayriodabas@gmail.com</a></p>
+<footer><p>最終更新：2026年10月20日</p><p>Hayri Odabaş</p></footer></main></body></html>

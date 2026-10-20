@@ -1,0 +1,293 @@
+{
+ "languages": {"en-US": "English", "de": "Deutsch", "fr": "Français", "es": "Español", "it": "Italiano", "pt-BR": "Português (Brasil)", "nl": "Nederlands", "ja": "日本語", "ko": "한국어", "zh-Hans": "简体中文", "ru": "Русский", "tr": "Türkçe"},
+ "pages": {
+  "en-US": {
+   "languages": "Languages", "contact": "Contact", "updated": "Last updated 20 October 2026",
+   "privacy": {"title": "Privacy", "lead": "DartBench collects nothing. Every dart you record stays on your device.",
+    "sections": [
+     ["What the app stores", "Your setups, sessions and comparisons are kept in the app's own folder on your device. They leave it only when you share a session or a CSV yourself, or export a backup file."],
+     ["What the app sends", "Nothing. DartBench never opens a network connection. There is no account, no analytics, no advertising framework and no crash reporting."],
+     ["Permissions", "The app asks iOS for nothing: no camera, no photo library, no location, no notifications."],
+     ["Purchases", "DartBench Pro is a one-time purchase handled by the App Store. Apple processes the payment; the app only learns whether Pro is unlocked. Apple's privacy policy applies to that transaction."],
+     ["Deleting your data", "Settings › Erase the record removes every setup, session and comparison. Deleting the app removes everything."]
+    ]},
+   "support": {"title": "Support", "lead": "How the board, the practice sessions and the comparisons work.",
+    "sections": [
+     ["Recording a dart", "Throw a real dart at your real board, then touch the drawn board where it landed. Hold the finger and a readout names the bed under it (T20, D16, 25, Bull); lift to place the dart. The board follows the official geometry, so each touch is stored in millimetres from the centre. Use the Bounce-out button for a dart that did not stay in, and Take back if the finger slipped."],
+     ["The figures", "In the bed: the share of darts that landed in the bed you chose. Grouping: how far the darts sit from their own centre on average, in millimetres; smaller is tighter. Mean miss: the average distance from the centre of the bed. Mean score: the score a dart would have taken, averaged. A line under the figures says which way the group leans."],
+     ["Comparisons", "Pick two setups that differ in one thing (the bench checks the specs), one bed, the darts per block, the blocks per day and a warm-up. Blocks run in ABBA order so warming up and tiring out fall on both setups alike. Throw another day and the order is reversed. The report shows both setups on one board with the figures side by side. Its last sentence tells you whether the difference is bigger than chance would give for that many darts; it is descriptive, not a statistical test."],
+     ["Why one difference", "If two setups differ in weight and flights at once, a difference on the board cannot be pinned on either. The editor warns when more than one spec differs; you can still lock the comparison, but the report will be about the pair, not the part."],
+     ["Backups", "Settings › Back up the record writes one JSON file you can keep anywhere; Restore reads it back. The CSV of a comparison (Pro) has one row per dart: day, block, condition, ring, sector, score, position in millimetres, bounce-out and comfort."]
+    ],
+    "faq": [
+     ["My finger lands a little off where the dart went.", "Hold the finger down and read the bed name before lifting; move until it says the right bed. For fine placement, the readout is the thing to trust."],
+     ["Can the app score 501 or cricket?", "No. DartBench measures practice: where darts land and how tightly they group. A scoring app is a different tool."],
+     ["How do I get Pro back on a new device?", "Open the Pro page or Settings and tap Restore purchases while signed in with the same Apple Account."]
+    ]}
+  },
+  "de": {
+   "languages": "Sprachen", "contact": "Kontakt", "updated": "Zuletzt aktualisiert am 20. Oktober 2026",
+   "privacy": {"title": "Datenschutz", "lead": "DartBench sammelt nichts. Jeder Dart, den du erfasst, bleibt auf deinem Gerät.",
+    "sections": [
+     ["Was die App speichert", "Setups, Einheiten und Vergleiche liegen im eigenen Ordner der App auf deinem Gerät. Sie verlassen es nur, wenn du selbst eine Einheit oder eine CSV teilst oder ein Backup exportierst."],
+     ["Was die App sendet", "Nichts. DartBench öffnet nie eine Netzwerkverbindung. Es gibt kein Konto, keine Analyse, kein Werbe-Framework und keine Absturzberichte."],
+     ["Berechtigungen", "Die App verlangt von iOS nichts: keine Kamera, keine Fotomediathek, keinen Standort, keine Mitteilungen."],
+     ["Käufe", "DartBench Pro ist ein einmaliger Kauf über den App Store. Apple wickelt die Zahlung ab; die App erfährt nur, ob Pro freigeschaltet ist. Für diesen Vorgang gilt die Datenschutzerklärung von Apple."],
+     ["Daten löschen", "Einstellungen › Protokoll löschen entfernt jedes Setup, jede Einheit und jeden Vergleich. Das Löschen der App entfernt alles."]
+    ]},
+   "support": {"title": "Support", "lead": "Wie Scheibe, Trainingseinheiten und Vergleiche funktionieren.",
+    "sections": [
+     ["Einen Dart erfassen", "Wirf einen echten Dart auf deine echte Scheibe und tippe dann auf die gezeichnete Scheibe, wo er gelandet ist. Halte den Finger, und eine Anzeige nennt das Feld darunter (T20, D16, 25, Bull); hebe ihn, um den Dart zu setzen. Die Scheibe folgt der offiziellen Geometrie, jede Berührung wird in Millimetern vom Zentrum gespeichert. „Abpraller“ für einen Dart, der nicht stecken blieb, „Zurücknehmen“, wenn der Finger gerutscht ist."],
+     ["Die Zahlen", "Im Feld: der Anteil der Darts im gewählten Feld. Streuung: wie weit die Darts im Mittel von ihrem eigenen Zentrum liegen, in Millimetern; kleiner ist enger. Mittlere Abweichung: der mittlere Abstand zur Feldmitte. Mittlere Punkte: die Punkte, die ein Dart genommen hätte, gemittelt. Eine Zeile darunter sagt, wohin die Gruppe neigt."],
+     ["Vergleiche", "Wähle zwei Setups, die sich in einer Sache unterscheiden (der Tisch prüft die Daten), ein Feld, die Darts pro Block, die Blöcke pro Tag und ein Aufwärmen. Die Blöcke laufen in ABBA-Reihenfolge, damit Aufwärmen und Ermüden beide Setups gleich treffen. Wirf an einem weiteren Tag, und die Reihenfolge ist umgekehrt. Der Bericht zeigt beide Setups auf einer Scheibe mit den Zahlen nebeneinander. Sein letzter Satz sagt, ob der Unterschied größer ist, als der Zufall bei so vielen Darts ergäbe; das ist beschreibend, kein statistischer Test."],
+     ["Warum ein Unterschied", "Unterscheiden sich zwei Setups zugleich in Gewicht und Flights, lässt sich ein Unterschied auf der Scheibe keinem davon zuschreiben. Der Editor warnt, wenn mehr als ein Wert abweicht; du kannst den Vergleich trotzdem festlegen, der Bericht gilt dann dem Paar, nicht dem Teil."],
+     ["Backups", "Einstellungen › Protokoll sichern schreibt eine JSON-Datei, die du beliebig ablegen kannst; Wiederherstellen liest sie zurück. Die CSV eines Vergleichs (Pro) hat eine Zeile pro Dart: Tag, Block, Bedingung, Ring, Sektor, Punkte, Position in Millimetern, Abpraller und Gefühl."]
+    ],
+    "faq": [
+     ["Mein Finger landet etwas neben dem Dart.", "Halte den Finger gedrückt und lies den Feldnamen, bevor du loslässt; verschiebe, bis das richtige Feld steht. Für feine Platzierung ist die Anzeige das Verlässliche."],
+     ["Kann die App 501 oder Cricket zählen?", "Nein. DartBench misst das Training: wo Darts landen und wie eng sie gruppieren. Ein Zähler ist ein anderes Werkzeug."],
+     ["Wie bekomme ich Pro auf einem neuen Gerät zurück?", "Öffne die Pro-Seite oder die Einstellungen und tippe auf Käufe wiederherstellen, angemeldet mit demselben Apple-Account."]
+    ]}
+  },
+  "fr": {
+   "languages": "Langues", "contact": "Contact", "updated": "Dernière mise à jour le 20 octobre 2026",
+   "privacy": {"title": "Confidentialité", "lead": "DartBench ne collecte rien. Chaque fléchette enregistrée reste sur ton appareil.",
+    "sections": [
+     ["Ce que l’app enregistre", "Tes montages, séances et comparaisons sont conservés dans le dossier de l’app sur ton appareil. Ils n’en sortent que si tu partages toi-même une séance ou un CSV, ou exportes une sauvegarde."],
+     ["Ce que l’app envoie", "Rien. DartBench n’ouvre jamais de connexion réseau. Pas de compte, pas d’analyse, pas de framework publicitaire, pas de rapport de plantage."],
+     ["Autorisations", "L’app ne demande rien à iOS : ni caméra, ni photothèque, ni position, ni notifications."],
+     ["Achats", "DartBench Pro est un achat unique géré par l’App Store. Apple traite le paiement ; l’app sait seulement si Pro est débloqué. La politique de confidentialité d’Apple s’applique à cette transaction."],
+     ["Supprimer tes données", "Réglages › Effacer le carnet supprime tous les montages, séances et comparaisons. Supprimer l’app supprime tout."]
+    ]},
+   "support": {"title": "Assistance", "lead": "Comment fonctionnent la cible, les séances et les comparaisons.",
+    "sections": [
+     ["Enregistrer une fléchette", "Lance une vraie fléchette sur ta vraie cible, puis touche la cible dessinée là où elle s’est plantée. Garde le doigt et une indication nomme la case en dessous (T20, D16, 25, Bull) ; lève-le pour placer la fléchette. La cible suit la géométrie officielle ; chaque toucher est gardé en millimètres depuis le centre. « Rebond » pour une fléchette qui n’est pas restée, « Reprendre » si le doigt a glissé."],
+     ["Les chiffres", "Dans la case : la part des fléchettes dans la case choisie. Groupement : la distance moyenne des fléchettes à leur propre centre, en millimètres ; plus petit, c’est plus serré. Écart moyen : la distance moyenne au centre de la case. Score moyen : le score qu’aurait pris une fléchette, en moyenne. Une ligne en dessous dit de quel côté penche le groupe."],
+     ["Comparaisons", "Choisis deux montages qui diffèrent sur un seul point (l’atelier vérifie les fiches), une case, les fléchettes par bloc, les blocs par jour et un échauffement. Les blocs vont en ordre ABBA pour que l’échauffement et la fatigue tombent pareillement sur les deux montages. Lance un autre jour et l’ordre est inversé. Le rapport montre les deux montages sur une seule cible, chiffres côte à côte. Sa dernière phrase dit si l’écart dépasse ce que le hasard donnerait pour autant de fléchettes ; c’est descriptif, pas un test statistique."],
+     ["Pourquoi une seule différence", "Si deux montages diffèrent à la fois par le poids et les ailettes, un écart sur la cible ne peut être attribué à aucun des deux. L’éditeur prévient quand plus d’un point diffère ; tu peux verrouiller quand même, mais le rapport parlera de la paire, pas de la pièce."],
+     ["Sauvegardes", "Réglages › Sauvegarder le carnet écrit un fichier JSON à garder où tu veux ; Restaurer le relit. Le CSV d’une comparaison (Pro) a une ligne par fléchette : jour, bloc, condition, anneau, secteur, score, position en millimètres, rebond et confort."]
+    ],
+    "faq": [
+     ["Mon doigt se pose un peu à côté de la fléchette.", "Garde le doigt appuyé et lis le nom de la case avant de lever ; déplace jusqu’à la bonne case. Pour un placement fin, c’est l’indication qu’il faut croire."],
+     ["L’app peut-elle compter le 501 ou le cricket ?", "Non. DartBench mesure l’entraînement : où se plantent les fléchettes et à quel point elles se groupent. Un compteur est un autre outil."],
+     ["Comment retrouver Pro sur un nouvel appareil ?", "Ouvre la page Pro ou les Réglages et touche Restaurer les achats, connecté au même compte Apple."]
+    ]}
+  },
+  "es": {
+   "languages": "Idiomas", "contact": "Contacto", "updated": "Última actualización: 20 de octubre de 2026",
+   "privacy": {"title": "Privacidad", "lead": "DartBench no recopila nada. Cada dardo que registras se queda en tu dispositivo.",
+    "sections": [
+     ["Qué guarda la app", "Tus montajes, sesiones y comparaciones se guardan en la carpeta de la app en tu dispositivo. Solo salen si compartes una sesión o un CSV, o exportas una copia de seguridad."],
+     ["Qué envía la app", "Nada. DartBench nunca abre una conexión de red. No hay cuenta, ni analítica, ni publicidad, ni informes de fallos."],
+     ["Permisos", "La app no pide nada a iOS: ni cámara, ni fototeca, ni ubicación, ni notificaciones."],
+     ["Compras", "DartBench Pro es una compra única gestionada por el App Store. Apple procesa el pago; la app solo sabe si Pro está desbloqueado. A esa transacción se aplica la política de privacidad de Apple."],
+     ["Borrar tus datos", "Ajustes › Borrar el registro elimina todos los montajes, sesiones y comparaciones. Eliminar la app lo borra todo."]
+    ]},
+   "support": {"title": "Soporte", "lead": "Cómo funcionan la diana, las sesiones y las comparaciones.",
+    "sections": [
+     ["Registrar un dardo", "Lanza un dardo real a tu diana real y toca la diana dibujada donde clavó. Mantén el dedo y un indicador nombra la casilla que hay debajo (T20, D16, 25, Diana); levántalo para colocar el dardo. La diana sigue la geometría oficial, así que cada toque se guarda en milímetros desde el centro. «Rebote» para un dardo que no se quedó, «Deshacer» si el dedo resbaló."],
+     ["Las cifras", "En la casilla: la parte de dardos que entró en la casilla elegida. Agrupación: a qué distancia media quedan los dardos de su propio centro, en milímetros; menor es más apretado. Desvío medio: la distancia media al centro de la casilla. Puntos medios: lo que habría sumado un dardo, de media. Una línea debajo dice hacia dónde se inclina el grupo."],
+     ["Comparaciones", "Elige dos montajes que difieran en una sola cosa (la mesa revisa las fichas), una casilla, los dardos por bloque, los bloques por día y un calentamiento. Los bloques van en orden ABBA para que el calentamiento y el cansancio caigan igual en ambos. Lanza otro día y el orden se invierte. El informe muestra los dos montajes en una diana con las cifras lado a lado. Su última frase dice si la diferencia supera lo que daría el azar con tantos dardos; es descriptiva, no una prueba estadística."],
+     ["Por qué una sola diferencia", "Si dos montajes difieren a la vez en peso y plumas, una diferencia en la diana no puede atribuirse a ninguno. El editor avisa cuando difiere más de un dato; puedes fijar igualmente, pero el informe hablará del par, no de la pieza."],
+     ["Copias de seguridad", "Ajustes › Hacer copia del registro escribe un archivo JSON que puedes guardar donde quieras; Restaurar lo vuelve a leer. El CSV de una comparación (Pro) tiene una fila por dardo: día, bloque, condición, anillo, sector, puntos, posición en milímetros, rebote y comodidad."]
+    ],
+    "faq": [
+     ["Mi dedo cae un poco lejos de donde fue el dardo.", "Mantén el dedo y lee el nombre de la casilla antes de levantar; mueve hasta que diga la correcta. Para afinar, fíate del indicador."],
+     ["¿La app cuenta 501 o cricket?", "No. DartBench mide la práctica: dónde clavan los dardos y cuánto se agrupan. Un marcador es otra herramienta."],
+     ["¿Cómo recupero Pro en un dispositivo nuevo?", "Abre la página Pro o Ajustes y toca Restaurar compras con la misma cuenta de Apple."]
+    ]}
+  },
+  "it": {
+   "languages": "Lingue", "contact": "Contatto", "updated": "Ultimo aggiornamento: 20 ottobre 2026",
+   "privacy": {"title": "Privacy", "lead": "DartBench non raccoglie nulla. Ogni freccetta che registri resta sul tuo dispositivo.",
+    "sections": [
+     ["Cosa salva l’app", "Assetti, sessioni e confronti restano nella cartella dell’app sul tuo dispositivo. Ne escono solo se condividi una sessione o un CSV, o esporti un backup."],
+     ["Cosa invia l’app", "Niente. DartBench non apre mai una connessione di rete. Nessun account, nessuna analisi, nessun framework pubblicitario, nessun rapporto di arresto."],
+     ["Permessi", "L’app non chiede nulla a iOS: né fotocamera, né libreria foto, né posizione, né notifiche."],
+     ["Acquisti", "DartBench Pro è un acquisto unico gestito dall’App Store. Apple elabora il pagamento; l’app sa solo se Pro è sbloccato. A quella transazione si applica l’informativa sulla privacy di Apple."],
+     ["Cancellare i dati", "Impostazioni › Cancella il registro rimuove ogni assetto, sessione e confronto. Eliminare l’app rimuove tutto."]
+    ]},
+   "support": {"title": "Supporto", "lead": "Come funzionano il bersaglio, le sessioni e i confronti.",
+    "sections": [
+     ["Registrare una freccetta", "Tira una freccetta vera sul tuo bersaglio vero, poi tocca il bersaglio disegnato dove si è piantata. Tieni il dito e un’indicazione nomina il settore sotto (T20, D16, 25, Bull); solleva per piazzare la freccetta. Il bersaglio segue la geometria ufficiale, ogni tocco è salvato in millimetri dal centro. «Rimbalzo» per una freccetta che non è rimasta, «Annulla l’ultima» se il dito è scivolato."],
+     ["Le cifre", "Nel settore: la quota di freccette nel settore scelto. Raggruppamento: quanto le freccette distano in media dal loro centro, in millimetri; più piccolo è più stretto. Scarto medio: la distanza media dal centro del settore. Punteggio medio: il punteggio che una freccetta avrebbe preso, in media. Una riga sotto dice da che parte pende il gruppo."],
+     ["Confronti", "Scegli due assetti che differiscono in una cosa sola (il banco controlla le schede), un settore, le freccette per blocco, i blocchi al giorno e un riscaldamento. I blocchi vanno in ordine ABBA perché riscaldamento e stanchezza pesino allo stesso modo. Tira un altro giorno e l’ordine è invertito. Il rapporto mostra i due assetti su un bersaglio con le cifre affiancate. L’ultima frase dice se la differenza supera ciò che il caso darebbe con tante freccette; è descrittiva, non un test statistico."],
+     ["Perché una sola differenza", "Se due assetti differiscono insieme per peso e alette, una differenza sul bersaglio non può essere attribuita a nessuno dei due. L’editor avvisa quando più di un dato differisce; puoi bloccare comunque, ma il rapporto parlerà della coppia, non del pezzo."],
+     ["Backup", "Impostazioni › Fai il backup del registro scrive un file JSON da tenere dove vuoi; Ripristina lo rilegge. Il CSV di un confronto (Pro) ha una riga per freccetta: giorno, blocco, condizione, anello, settore, punteggio, posizione in millimetri, rimbalzo e comfort."]
+    ],
+    "faq": [
+     ["Il dito si posa un po’ lontano dalla freccetta.", "Tieni premuto e leggi il nome del settore prima di sollevare; sposta finché dice quello giusto. Per la precisione, fidati dell’indicazione."],
+     ["L’app conta 501 o cricket?", "No. DartBench misura l’allenamento: dove si piantano le freccette e quanto si raggruppano. Un segnapunti è un altro strumento."],
+     ["Come recupero Pro su un nuovo dispositivo?", "Apri la pagina Pro o le Impostazioni e tocca Ripristina acquisti con lo stesso account Apple."]
+    ]}
+  },
+  "pt-BR": {
+   "languages": "Idiomas", "contact": "Contato", "updated": "Última atualização: 20 de outubro de 2026",
+   "privacy": {"title": "Privacidade", "lead": "O DartBench não coleta nada. Cada dardo que você registra fica no seu aparelho.",
+    "sections": [
+     ["O que o app guarda", "Seus conjuntos, sessões e comparações ficam na pasta do app no seu aparelho. Só saem se você compartilhar uma sessão ou um CSV, ou exportar um backup."],
+     ["O que o app envia", "Nada. O DartBench nunca abre uma conexão de rede. Não há conta, análise, publicidade nem relatórios de falhas."],
+     ["Permissões", "O app não pede nada ao iOS: nem câmera, nem fototeca, nem localização, nem notificações."],
+     ["Compras", "O DartBench Pro é uma compra única feita pela App Store. A Apple processa o pagamento; o app só sabe se o Pro está liberado. A política de privacidade da Apple vale para essa transação."],
+     ["Apagar seus dados", "Ajustes › Apagar o registro remove todos os conjuntos, sessões e comparações. Excluir o app remove tudo."]
+    ]},
+   "support": {"title": "Suporte", "lead": "Como funcionam o alvo, as sessões e as comparações.",
+    "sections": [
+     ["Registrar um dardo", "Lance um dardo real no seu alvo real e toque no alvo desenhado onde ele cravou. Segure o dedo e um indicador nomeia a casa embaixo (T20, D16, 25, Bull); solte para colocar o dardo. O alvo segue a geometria oficial, então cada toque fica guardado em milímetros a partir do centro. “Rebote” para um dardo que não ficou, “Desfazer” se o dedo escorregou."],
+     ["Os números", "Na casa: a parte dos dardos que entrou na casa escolhida. Agrupamento: a que distância média os dardos ficam do próprio centro, em milímetros; menor é mais fechado. Desvio médio: a distância média ao centro da casa. Pontos médios: o que um dardo teria marcado, em média. Uma linha embaixo diz para onde o grupo pende."],
+     ["Comparações", "Escolha dois conjuntos que diferem em uma só coisa (a bancada confere as fichas), uma casa, os dardos por bloco, os blocos por dia e um aquecimento. Os blocos seguem a ordem ABBA para que aquecimento e cansaço recaiam igual sobre os dois. Lance outro dia e a ordem se inverte. O relatório mostra os dois conjuntos num alvo com os números lado a lado. A última frase diz se a diferença passa do que o acaso daria com tantos dardos; é descritiva, não um teste estatístico."],
+     ["Por que uma só diferença", "Se dois conjuntos diferem em peso e penas ao mesmo tempo, uma diferença no alvo não pode ser atribuída a nenhum dos dois. O editor avisa quando mais de um item difere; você pode travar mesmo assim, mas o relatório falará do par, não da peça."],
+     ["Backups", "Ajustes › Fazer backup do registro grava um arquivo JSON que você pode guardar onde quiser; Restaurar lê de volta. O CSV de uma comparação (Pro) tem uma linha por dardo: dia, bloco, condição, anel, setor, pontos, posição em milímetros, rebote e conforto."]
+    ],
+    "faq": [
+     ["Meu dedo cai um pouco longe de onde o dardo foi.", "Segure o dedo e leia o nome da casa antes de soltar; mova até aparecer a certa. Para precisão, confie no indicador."],
+     ["O app marca 501 ou cricket?", "Não. O DartBench mede o treino: onde os dardos cravam e quanto se agrupam. Um placar é outra ferramenta."],
+     ["Como recupero o Pro em um aparelho novo?", "Abra a página do Pro ou os Ajustes e toque em Restaurar compras com a mesma Conta Apple."]
+    ]}
+  },
+  "nl": {
+   "languages": "Talen", "contact": "Contact", "updated": "Laatst bijgewerkt op 20 oktober 2026",
+   "privacy": {"title": "Privacy", "lead": "DartBench verzamelt niets. Elke dart die je vastlegt blijft op je apparaat.",
+    "sections": [
+     ["Wat de app bewaart", "Je opstellingen, sessies en vergelijkingen staan in de eigen map van de app op je apparaat. Ze verlaten het alleen als je zelf een sessie of CSV deelt of een back-up exporteert."],
+     ["Wat de app verstuurt", "Niets. DartBench opent nooit een netwerkverbinding. Geen account, geen analyse, geen advertentieframework, geen crashrapportage."],
+     ["Toestemmingen", "De app vraagt iOS om niets: geen camera, geen fotobibliotheek, geen locatie, geen meldingen."],
+     ["Aankopen", "DartBench Pro is een eenmalige aankoop via de App Store. Apple verwerkt de betaling; de app weet alleen of Pro is ontgrendeld. Op die transactie is het privacybeleid van Apple van toepassing."],
+     ["Je gegevens wissen", "Instellingen › Logboek wissen verwijdert elke opstelling, sessie en vergelijking. De app verwijderen verwijdert alles."]
+    ]},
+   "support": {"title": "Ondersteuning", "lead": "Hoe het bord, de oefensessies en de vergelijkingen werken.",
+    "sections": [
+     ["Een dart vastleggen", "Gooi een echte dart op je echte bord en tik dan op het getekende bord waar hij landde. Houd je vinger vast en een uitlezing noemt het vak eronder (T20, D16, 25, Bull); laat los om de dart te plaatsen. Het bord volgt de officiële geometrie, elke aanraking wordt in millimeters vanaf het midden bewaard. „Bounce-out” voor een dart die niet bleef zitten, „Terugnemen” als je vinger uitschoot."],
+     ["De cijfers", "In het vak: het aandeel darts in het gekozen vak. Groepering: hoe ver de darts gemiddeld van hun eigen middelpunt liggen, in millimeters; kleiner is strakker. Gemiddelde afwijking: de gemiddelde afstand tot het midden van het vak. Gemiddelde score: wat een dart gescoord zou hebben, gemiddeld. Een regel eronder zegt welke kant de groep op helt."],
+     ["Vergelijkingen", "Kies twee opstellingen die in één ding verschillen (de werkbank controleert de specificaties), één vak, darts per blok, blokken per dag en een opwarming. Blokken lopen in ABBA-volgorde zodat opwarmen en vermoeidheid beide gelijk treffen. Gooi een andere dag en de volgorde is omgekeerd. Het rapport toont beide opstellingen op één bord met de cijfers naast elkaar. De laatste zin zegt of het verschil groter is dan toeval bij zoveel darts zou geven; dat is beschrijvend, geen statistische toets."],
+     ["Waarom één verschil", "Als twee opstellingen tegelijk in gewicht en flights verschillen, valt een verschil op het bord aan geen van beide toe te schrijven. De editor waarschuwt als meer dan één specificatie verschilt; je kunt toch vastleggen, maar het rapport gaat dan over het paar, niet over het onderdeel."],
+     ["Back-ups", "Instellingen › Logboek back-uppen schrijft één JSON-bestand dat je overal kunt bewaren; Terugzetten leest het terug. De CSV van een vergelijking (Pro) heeft één regel per dart: dag, blok, conditie, ring, sector, score, positie in millimeters, bounce-out en gevoel."]
+    ],
+    "faq": [
+     ["Mijn vinger landt iets naast waar de dart zat.", "Houd je vinger vast en lees de vaknaam voor je loslaat; schuif tot het juiste vak staat. Voor fijne plaatsing is de uitlezing wat telt."],
+     ["Kan de app 501 of cricket tellen?", "Nee. DartBench meet het oefenen: waar darts landen en hoe strak ze groeperen. Een teller is een ander gereedschap."],
+     ["Hoe krijg ik Pro terug op een nieuw apparaat?", "Open de Pro-pagina of Instellingen en tik op Aankopen herstellen, ingelogd met hetzelfde Apple-account."]
+    ]}
+  },
+  "ja": {
+   "languages": "言語", "contact": "連絡先", "updated": "最終更新：2026年10月20日",
+   "privacy": {"title": "プライバシー", "lead": "DartBench は何も収集しません。記録したダーツはすべてあなたの端末に残ります。",
+    "sections": [
+     ["アプリが保存するもの", "セッティング、セッション、比較は端末内のアプリ専用フォルダに保存されます。自分でセッションや CSV を共有するか、バックアップを書き出さない限り、端末の外に出ることはありません。"],
+     ["アプリが送信するもの", "何も送信しません。DartBench はネットワーク接続を開きません。アカウント、解析、広告フレームワーク、クラッシュ報告はありません。"],
+     ["権限", "アプリは iOS に何も要求しません。カメラ、写真ライブラリ、位置情報、通知のいずれも使いません。"],
+     ["購入", "DartBench Pro は App Store が扱う1回限りの購入です。支払いは Apple が処理し、アプリは Pro が解除されたかどうかだけを知ります。その取引には Apple のプライバシーポリシーが適用されます。"],
+     ["データの削除", "設定 › 記録を消去 で、すべてのセッティング・セッション・比較が消えます。アプリを削除するとすべてが消えます。"]
+    ]},
+   "support": {"title": "サポート", "lead": "ボード、練習セッション、比較の仕組み。",
+    "sections": [
+     ["ダーツを記録する", "実際のボードに実際のダーツを投げ、描かれたボードの刺さった位置をタップします。指を置いたままにすると、その下のベッド名（T20、D16、25、ブル）が表示され、離すとダーツが置かれます。ボードは公式寸法に従い、タップは中心からのミリ単位で保存されます。刺さらなかったダーツは「弾かれた」、指が滑ったら「取り消す」。"],
+     ["数値", "ベッド内：選んだベッドに入ったダーツの割合。グルーピング：ダーツが自分たちの中心からどれだけ離れているかの平均（mm）。小さいほど締まっています。平均のずれ：ベッド中心からの平均距離。平均得点：1本が取ったであろう得点の平均。下の一行はグループがどちらに寄っているかを示します。"],
+     ["比較", "一点だけ違う2つのセッティング（ベンチがスペックを確認）、ひとつのベッド、ブロックあたりの本数、1日のブロック数、ウォームアップを選びます。ブロックは ABBA 順で、ウォームアップと疲れが両方に等しく及びます。別の日に投げると順序が逆になります。レポートは両方を1枚のボードに示し、数値を並べます。最後の一文は、差がその本数で偶然が出す範囲を超えているかを述べます。記述的なもので、統計的検定ではありません。"],
+     ["なぜ違いは一点か", "重さとフライトが同時に違えば、ボード上の差をどちらのせいにもできません。エディタは2点以上違うと警告します。それでも固定はできますが、レポートは「組み合わせ」についてのものになります。"],
+     ["バックアップ", "設定 › 記録をバックアップ で JSON ファイルが1つ書き出され、どこにでも保存できます。復元で読み戻します。比較の CSV（Pro）は1本1行：日、ブロック、条件、リング、セクター、得点、ミリ単位の位置、弾かれ、感触。"]
+    ],
+    "faq": [
+     ["指がダーツの位置から少しずれます。", "指を離す前にベッド名を読み、正しいベッドになるまで動かしてください。細かい位置決めは表示を信頼してください。"],
+     ["501 やクリケットの得点は数えられますか？", "いいえ。DartBench は練習を測ります：ダーツがどこに刺さり、どれだけ締まるか。スコアラーは別の道具です。"],
+     ["新しい端末で Pro を戻すには？", "同じ Apple アカウントでサインインし、Pro ページか設定で「購入を復元」をタップします。"]
+    ]}
+  },
+  "ko": {
+   "languages": "언어", "contact": "연락처", "updated": "마지막 업데이트: 2026년 10월 20일",
+   "privacy": {"title": "개인정보", "lead": "DartBench는 아무것도 수집하지 않습니다. 기록한 모든 다트는 기기 안에 머뭅니다.",
+    "sections": [
+     ["앱이 저장하는 것", "세팅, 세션, 비교는 기기 안 앱 전용 폴더에 보관됩니다. 직접 세션이나 CSV를 공유하거나 백업 파일을 내보내지 않는 한 기기를 떠나지 않습니다."],
+     ["앱이 보내는 것", "없습니다. DartBench는 네트워크 연결을 열지 않습니다. 계정, 분석, 광고 프레임워크, 충돌 보고가 없습니다."],
+     ["권한", "앱은 iOS에 아무것도 요구하지 않습니다: 카메라, 사진 보관함, 위치, 알림 모두 쓰지 않습니다."],
+     ["구매", "DartBench Pro는 App Store가 처리하는 한 번의 구매입니다. 결제는 Apple이 처리하며 앱은 Pro가 열렸는지만 압니다. 그 거래에는 Apple의 개인정보 처리방침이 적용됩니다."],
+     ["데이터 삭제", "설정 › 기록 지우기 는 모든 세팅, 세션, 비교를 지웁니다. 앱을 삭제하면 모든 것이 지워집니다."]
+    ]},
+   "support": {"title": "지원", "lead": "보드, 연습 세션, 비교가 어떻게 작동하는지.",
+    "sections": [
+     ["다트 기록하기", "실제 보드에 실제 다트를 던진 뒤 그려진 보드에서 꽂힌 자리를 터치합니다. 손가락을 대고 있으면 아래 베드 이름(T20, D16, 25, 불)이 보이고, 떼면 다트가 놓입니다. 보드는 공식 규격을 따르며 터치는 중심으로부터 밀리미터로 저장됩니다. 꽂히지 않은 다트는 ‘튕김’, 손가락이 미끄러졌으면 ‘되돌리기’."],
+     ["수치", "베드 안: 고른 베드에 들어간 다트의 비율. 그루핑: 다트들이 자기 중심에서 평균 얼마나 떨어졌는지(mm); 작을수록 조밀. 평균 빗나감: 베드 중심까지의 평균 거리. 평균 점수: 다트 하나가 얻었을 점수의 평균. 아래 한 줄은 그룹이 어느 쪽으로 기울었는지 말합니다."],
+     ["비교", "한 가지만 다른 두 세팅(벤치가 사양을 확인), 하나의 베드, 블록당 다트 수, 하루 블록 수, 몸풀기를 고릅니다. 블록은 ABBA 순서로 진행되어 몸풀기와 피로가 두 세팅에 똑같이 걸립니다. 다른 날 던지면 순서가 뒤집힙니다. 보고서는 두 세팅을 한 보드에 올리고 수치를 나란히 보여 줍니다. 마지막 문장은 그 차이가 그 다트 수에서 우연이 줄 범위를 넘는지 말합니다. 기술적인 것이지 통계 검정이 아닙니다."],
+     ["왜 한 가지 차이인가", "두 세팅이 무게와 플라이트가 동시에 다르면 보드 위의 차이를 어느 쪽 탓으로도 돌릴 수 없습니다. 편집기는 둘 이상이 다르면 경고합니다. 그래도 고정할 수 있지만 보고서는 ‘조합’에 대한 것이 됩니다."],
+     ["백업", "설정 › 기록 백업 은 어디에나 둘 수 있는 JSON 파일 하나를 씁니다. 복원이 그것을 다시 읽습니다. 비교의 CSV(Pro)는 다트당 한 줄: 날, 블록, 조건, 링, 섹터, 점수, 밀리미터 위치, 튕김, 느낌."]
+    ],
+    "faq": [
+     ["손가락이 다트 자리에서 조금 벗어납니다.", "손가락을 떼기 전에 베드 이름을 읽고 맞는 베드가 나올 때까지 움직이세요. 정밀한 배치는 표시를 믿으세요."],
+     ["앱이 501이나 크리켓 점수를 세나요?", "아니요. DartBench는 연습을 측정합니다: 다트가 어디 꽂히고 얼마나 조밀한지. 점수판은 다른 도구입니다."],
+     ["새 기기에서 Pro를 어떻게 되찾나요?", "같은 Apple 계정으로 로그인한 상태에서 Pro 페이지나 설정에서 구매 복원을 누르세요."]
+    ]}
+  },
+  "zh-Hans": {
+   "languages": "语言", "contact": "联系", "updated": "最后更新：2026 年 10 月 20 日",
+   "privacy": {"title": "隐私", "lead": "DartBench 不收集任何信息。你记录的每一镖都留在你的设备上。",
+    "sections": [
+     ["App 保存什么", "配置、练习和对比保存在设备上 App 自己的文件夹里。除非你自己分享练习或 CSV，或导出备份文件，它们不会离开设备。"],
+     ["App 发送什么", "什么都不发送。DartBench 从不打开网络连接。没有账户、没有分析、没有广告框架、没有崩溃报告。"],
+     ["权限", "App 不向 iOS 请求任何权限：不用摄像头、照片库、位置或通知。"],
+     ["购买", "DartBench Pro 是由 App Store 处理的一次性购买。Apple 处理付款；App 只知道 Pro 是否已解锁。该交易适用 Apple 的隐私政策。"],
+     ["删除你的数据", "设置 › 清空记录 会删除所有配置、练习和对比。删除 App 会删除一切。"]
+    ]},
+   "support": {"title": "支持", "lead": "镖盘、练习和对比如何工作。",
+    "sections": [
+     ["记录一镖", "向真实镖盘投出真实的飞镖，然后在画出的镖盘上点落点。按住手指，读数会显示指下的区位（T20、D16、25、红心）；抬起即放置飞镖。镖盘遵循官方尺寸，每次点击都以距中心的毫米数保存。没留在盘上的飞镖用“弹出”，手指滑了用“撤回”。"],
+     ["数字", "命中区位：落在所选区位的飞镖比例。集中度：飞镖离自身中心的平均距离（毫米），越小越紧。平均偏差：到区位中心的平均距离。平均得分：一镖本应得到的分数的平均。下方一行说明镖群偏向哪边。"],
+     ["对比", "选两套只差一处的配置（工作台会检查参数）、一个区位、每轮镖数、每天轮数和热身。轮次按 ABBA 顺序进行，使热身和疲劳同等落在两者上。另一天再投，顺序反过来。报告把两套配置放在同一镖盘上并列数字。最后一句说明差异是否超出这个镖数下运气所能给出的范围；它是描述性的，不是统计检验。"],
+     ["为什么只差一处", "如果两套配置重量和镖翼同时不同，镖盘上的差异就无法归到其中之一。编辑器会在多于一处不同时提醒；你仍可锁定，但报告讲的是这对组合，不是某个部件。"],
+     ["备份", "设置 › 备份记录 会写出一个 JSON 文件，可放在任何地方；恢复会把它读回。对比的 CSV（Pro）每镖一行：日、轮、条件、环、扇区、得分、毫米位置、弹出和手感。"]
+    ],
+    "faq": [
+     ["我的手指落点和飞镖位置有点偏。", "按住手指，抬起前先看区位名称，移动到正确的区位再松开。精确定位以读数为准。"],
+     ["App 能给 501 或板球计分吗？", "不能。DartBench 衡量的是练习：飞镖落在哪里、群有多紧。计分器是另一种工具。"],
+     ["在新设备上怎么找回 Pro？", "用同一个 Apple 账户登录后，打开 Pro 页面或设置，点按“恢复购买”。"]
+    ]}
+  },
+  "ru": {
+   "languages": "Языки", "contact": "Контакт", "updated": "Обновлено 20 октября 2026 г.",
+   "privacy": {"title": "Конфиденциальность", "lead": "DartBench ничего не собирает. Каждый записанный дротик остаётся на вашем устройстве.",
+    "sections": [
+     ["Что хранит приложение", "Сборки, тренировки и сравнения хранятся в собственной папке приложения на устройстве. Они покидают его только когда вы сами делитесь тренировкой или CSV либо экспортируете резервную копию."],
+     ["Что отправляет приложение", "Ничего. DartBench никогда не открывает сетевое соединение. Нет аккаунта, аналитики, рекламных библиотек и отчётов о сбоях."],
+     ["Разрешения", "Приложение ничего не просит у iOS: ни камеры, ни фототеки, ни геопозиции, ни уведомлений."],
+     ["Покупки", "DartBench Pro — разовая покупка через App Store. Платёж обрабатывает Apple; приложение узнаёт лишь, открыт ли Pro. К этой операции применяется политика конфиденциальности Apple."],
+     ["Удаление данных", "Настройки › Стереть журнал удаляет все сборки, тренировки и сравнения. Удаление приложения удаляет всё."]
+    ]},
+   "support": {"title": "Поддержка", "lead": "Как работают мишень, тренировки и сравнения.",
+    "sections": [
+     ["Запись дротика", "Бросьте настоящий дротик в настоящую мишень, затем коснитесь нарисованной мишени там, куда он попал. Удерживайте палец — подсказка назовёт сектор под ним (T20, D16, 25, булл); отпустите, чтобы поставить дротик. Мишень соответствует официальной геометрии, каждое касание хранится в миллиметрах от центра. «Отскок» — для дротика, который не удержался, «Отменить» — если палец соскользнул."],
+     ["Цифры", "В секторе: доля дротиков, попавших в выбранный сектор. Кучность: насколько дротики в среднем удалены от собственного центра, в миллиметрах; меньше — плотнее. Средний промах: среднее расстояние до центра сектора. Средний счёт: сколько очков взял бы дротик, в среднем. Строка под цифрами говорит, куда склоняется группа."],
+     ["Сравнения", "Выберите две сборки, отличающиеся одним (стол проверит параметры), один сектор, дротики в блоке, блоки в день и разминку. Блоки идут в порядке ABBA, чтобы разминка и усталость одинаково легли на обе сборки. Бросьте в другой день — порядок будет обратным. Отчёт показывает обе сборки на одной мишени с цифрами рядом. Последняя фраза говорит, больше ли разница того, что дал бы случай при таком числе дротиков; это описание, не статистический тест."],
+     ["Почему одно отличие", "Если сборки отличаются и весом, и оперением сразу, разницу на мишени нельзя приписать ни тому, ни другому. Редактор предупреждает, когда отличается больше одного параметра; зафиксировать всё равно можно, но отчёт будет о паре, а не о детали."],
+     ["Резервные копии", "Настройки › Сохранить копию журнала записывает один файл JSON, который можно хранить где угодно; восстановление читает его обратно. CSV сравнения (Pro) содержит строку на дротик: день, блок, условие, кольцо, сектор, счёт, положение в миллиметрах, отскок и ощущение."]
+    ],
+    "faq": [
+     ["Палец ложится чуть в стороне от дротика.", "Удерживайте палец и прочитайте название сектора, прежде чем отпустить; двигайте, пока не появится нужный. Для точной постановки верьте подсказке."],
+     ["Считает ли приложение 501 или крикет?", "Нет. DartBench измеряет тренировку: куда попадают дротики и насколько плотно ложатся. Счётчик — другой инструмент."],
+     ["Как вернуть Pro на новом устройстве?", "Откройте страницу Pro или настройки и нажмите «Восстановить покупки», войдя с тем же Apple Account."]
+    ]}
+  },
+  "tr": {
+   "languages": "Diller", "contact": "İletişim", "updated": "Son güncelleme: 20 Ekim 2026",
+   "privacy": {"title": "Gizlilik", "lead": "DartBench hiçbir şey toplamaz. Kaydettiğin her dart cihazında kalır.",
+    "sections": [
+     ["Uygulamanın sakladıkları", "Kurulumların, seansların ve kıyasların cihazındaki uygulama klasöründe tutulur. Yalnızca sen bir seansı ya da CSV'yi paylaşır veya yedek dışa aktarırsan cihazdan çıkar."],
+     ["Uygulamanın gönderdikleri", "Hiçbir şey. DartBench asla ağ bağlantısı açmaz. Hesap, analiz, reklam kitaplığı ve çökme raporu yoktur."],
+     ["İzinler", "Uygulama iOS'tan hiçbir şey istemez: kamera, fotoğraf arşivi, konum ve bildirim kullanılmaz."],
+     ["Satın almalar", "DartBench Pro, App Store'un yürüttüğü tek seferlik bir satın almadır. Ödemeyi Apple işler; uygulama yalnızca Pro'nun açık olup olmadığını öğrenir. Bu işlem için Apple'ın gizlilik politikası geçerlidir."],
+     ["Verilerini silmek", "Ayarlar › Kaydı sil bütün kurulumları, seansları ve kıyasları kaldırır. Uygulamayı silmek her şeyi kaldırır."]
+    ]},
+   "support": {"title": "Destek", "lead": "Tahta, antrenman seansları ve kıyaslar nasıl çalışır.",
+    "sections": [
+     ["Dart kaydetmek", "Gerçek tahtana gerçek bir dart at, sonra çizili tahtada saplandığı yere dokun. Parmağını tutunca altındaki bölgenin adı görünür (T20, D16, 25, Bull); kaldırınca dart yerleşir. Tahta resmî ölçüleri izler, her dokunuş merkezden milimetre olarak saklanır. Saplanmayan dart için \"Sekti\", parmak kaydıysa \"Geri al\"."],
+     ["Rakamlar", "Bölgede: seçtiğin bölgeye giren dartların payı. Gruplama: dartların kendi merkezlerinden ortalama uzaklığı, milimetre; küçüğü daha sıkı. Ortalama sapma: bölge merkezine ortalama uzaklık. Ortalama puan: bir dartın alacağı puanın ortalaması. Altındaki satır grubun hangi yana eğildiğini söyler."],
+     ["Kıyaslar", "Tek şeyde ayrılan iki kurulum (tezgâh özellikleri denetler), bir bölge, blok başına dart, günlük blok ve ısınma seç. Bloklar ABBA sırasıyla gider; ısınma ve yorulma iki kuruluma eşit düşer. Başka gün at, sıra ters döner. Rapor iki kurulumu tek tahtada, rakamları yan yana gösterir. Son cümle farkın o kadar dartla şansın vereceğini aşıp aşmadığını söyler; betimleyicidir, istatistiksel test değildir."],
+     ["Neden tek fark", "İki kurulum aynı anda ağırlık ve kanatta ayrılıyorsa tahtadaki fark ikisinden birine bağlanamaz. Düzenleyici birden fazla özellik ayrılınca uyarır; yine de kilitleyebilirsin ama rapor parçayı değil çifti anlatır."],
+     ["Yedekler", "Ayarlar › Kaydı yedekle istediğin yerde saklayabileceğin tek bir JSON dosyası yazar; Geri yükle onu okur. Bir kıyasın CSV'si (Pro) dart başına bir satırdır: gün, blok, koşul, halka, dilim, puan, milimetre konum, sekme ve his."]
+    ],
+    "faq": [
+     ["Parmağım dartın yerinden biraz sapıyor.", "Parmağını tutup kaldırmadan önce bölge adını oku; doğru bölge yazana dek kaydır. İnce yerleştirmede güvenilecek şey o göstergedir."],
+     ["Uygulama 501 ya da cricket sayar mı?", "Hayır. DartBench antrenmanı ölçer: dartlar nereye saplanıyor, ne kadar sıkı toplanıyor. Skor tahtası başka bir araçtır."],
+     ["Yeni cihazda Pro'yu nasıl geri alırım?", "Aynı Apple Hesabı ile oturum açıkken Pro sayfasını ya da Ayarlar'ı açıp Satın almaları geri yükle'ye dokun."]
+    ]}
+  }
+ }
+}
